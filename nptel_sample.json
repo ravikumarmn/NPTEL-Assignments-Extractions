@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "source": { "url": "NPTEL", "type": "pdf" },
+    "title": "Introduction to Machine Learning - IITKGP",
+    "explanation": false,
+    "total_questions": 8,
+    "choices": [1],
+    "multi_select": false
+  },
+  "quizzes": [
+    {
+      "question_body": {
+        "images": [],
+        "question_subparts": [],
+        "explanation": [],
+        "question": "Identify whether the following statement is true or false?\u00a0\u201cOverfitting is more likely when the set of training data is small\u201d\n"
+      },
+      "options": [
+        { "is_correct": true, "value": "True" },
+        { "is_correct": false, "value": "False" }
+      ]
+    },
+    {
+      "question_body": {
+        "images": [],
+        "question_subparts": [],
+        "explanation": [],
+        "question": "Which of the following criteria is typically used for optimizing in linear regression.\n"
+      },
+      "options": [
+        {
+          "is_correct": false,
+          "value": "Maximize the number of points it toucheMinimize the number of points it toucheMinimize the squared distance from the pointMinimize the maximum distance of a point from a lin"
+        }
+      ]
+    },
+    {
+      "question_body": {
+        "images": [],
+        "question_subparts": [],
+        "explanation": [],
+        "question": "Which of the following is false?\n"
+      },
+      "options": [
+        {
+          "is_correct": false,
+          "value": "Bias is the true error of the best classifier in the concept class"
+        },
+        {
+          "is_correct": false,
+          "value": "Bias is high if the concept class cannot model the true data distribution well"
+        },
+        { "is_correct": true, "value": "High bias leads to overfitting" },
+        {
+          "is_correct": false,
+          "value": "For high bias both train and test error will be high"
+        }
+      ]
+    },
+    {
+      "question_body": {
+        "images": [
+          "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc21_cs85/a2q4.JPG"
+        ],
+        "question_subparts": [],
+        "explanation": [],
+        "question": "The following dataset will be used to learn a decision tree for predicting whether a person\nis happy (H) or sad (S), based on the color of shoes, whether they wear a wig and the\nnumber of ears they have.Which attribute should you choose as the root of the decision tree?"
+      },
+      "options": [
+        { "is_correct": true, "value": "Color" },
+        { "is_correct": false, "value": "Wig" },
+        { "is_correct": false, "value": "Number of ears" },
+        {
+          "is_correct": false,
+          "value": "Any one of the previous three attributes"
+        }
+      ]
+    },
+    {
+      "question_body": {
+        "images": [
+          "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc21_cs85/a2q5.JPG"
+        ],
+        "question_subparts": [],
+        "explanation": [],
+        "question": ""
+      },
+      "options": [
+        { "is_correct": false, "value": "0" },
+        { "is_correct": false, "value": "1" },
+        { "is_correct": false, "value": "2" },
+        { "is_correct": true, "value": "2.5" }
+      ]
+    },
+    {
+      "question_body": {
+        "images": [],
+        "question_subparts": [],
+        "explanation": [],
+        "question": "In a binary classification problem, out of 64 data points 29 belong to class I and 35 belong to\nclass II. What is the entropy of the data set?\n"
+      },
+      "options": [
+        { "is_correct": false, "value": "0.97" },
+        { "is_correct": false, "value": "0" },
+        { "is_correct": false, "value": "1" },
+        { "is_correct": true, "value": "0.99" }
+      ]
+    },
+    {
+      "question_body": {
+        "images": [],
+        "question_subparts": [],
+        "explanation": [],
+        "question": "Decision trees can be used for the following type of datasets:\nI. The attributes are categorical\nII. The attributes are numeric valued and continuous\nIII. The attributes are discrete valued numbers\n"
+      },
+      "options": [
+        { "is_correct": false, "value": "In case I only" },
+        { "is_correct": false, "value": "In case II only" },
+        { "is_correct": false, "value": "In cases II and III only" },
+        { "is_correct": true, "value": "In cases I, II and III" }
+      ]
+    },
+    {
+      "question_body": {
+        "images": [],
+        "question_subparts": [],
+        "explanation": [],
+        "question": "What is true for Stochastic Gradient Descent?\n"
+      },
+      "options": [
+        {
+          "is_correct": false,
+          "value": "In every iteration, model parameters are updated for multiple training samples"
+        },
+        {
+          "is_correct": true,
+          "value": "In every iteration, model parameters are updated for one training sample"
+        },
+        {
+          "is_correct": false,
+          "value": "In every iteration, model parameters are updated for all training samples"
+        },
+        { "is_correct": false, "value": "None of the above" }
+      ]
+    }
+  ]
+}
